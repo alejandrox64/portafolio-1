@@ -5,7 +5,9 @@ import { Icon } from "@iconify/react";
 // import newLogo from "./images/yourFileName"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import multiStep from "./images/multiStep.png";
+import ecommerceProduct from "./images/ecommerceProduct.png";
+import shoppingCart from "./images/shopping-cart.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -18,20 +20,19 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "alejandrox64";
 
 // Navbar Logo image
 export const navLogo = undefined;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const Blog = <Icon icon="logos:linkedin-icon" />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
-export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+export const moreInfo = "";
 
 /* Skills
  ************************************************************** 
@@ -55,8 +56,8 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="ion:logo-sass" className="display-4" />,
+    name: "Sass",
   },
   {
     id: 5,
@@ -65,21 +66,16 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
-  },
-  {
-    id: 7,
     skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
     name: "Redux",
   },
   {
-    id: 8,
+    id: 7,
     skill: <Icon icon="bi:git" className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 8,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
@@ -92,13 +88,25 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = [
+  "shopping-cart",
+  "ecommerce-product",
+  "Multi-Step-Form-Page",
+];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "ecommerce-product",
+    image: ecommerceProduct,
+  },
+  {
+    name: "multi-Step-Form-Page",
+    image: multiStep,
+  },
+  {
+    name: "shopping-cart",
+    image: shoppingCart,
   },
 ];
 
