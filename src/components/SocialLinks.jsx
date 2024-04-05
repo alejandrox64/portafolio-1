@@ -14,7 +14,6 @@ const StyledSocialLinks = styled.div`
 
 export default function SocialLinks() {
   const { blog, html_url } = useSelector(selectData);
-  console.log(blog);
   return (
     <StyledSocialLinks>
       <a

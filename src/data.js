@@ -32,7 +32,8 @@ export const Blog = <Icon icon="logos:linkedin-icon" />;
  **************************************************************
   Add a second paragraph for the about me section.
 */
-export const moreInfo = "";
+export const moreInfo =
+  "Desarrollador web front end y entusiasta de la informática. Disfruto mucho aprendiendo cosas nuevas y compartiendo lo aprendido, actualmente me gusta trabajar con react y cuando no estoy codeando suelo dedicarle tiempo al dibujo digital y otros pasatiempos.";
 
 /* Skills
  ************************************************************** 
@@ -78,6 +79,18 @@ export const skillData = [
     id: 8,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
+  },
+];
+export const areasOfInterest = [
+  {
+    id: 9,
+    interest: <Icon icon="mdi:tailwind" className="display-4" />,
+    name: "Tailwind",
+  },
+  {
+    id: 10,
+    interest: <Icon icon="devicon-plain:typescript" className="display-4" />,
+    name: "TypeScript",
   },
 ];
 
